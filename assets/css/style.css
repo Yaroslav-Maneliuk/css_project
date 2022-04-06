@@ -1,21 +1,16 @@
-.main-heading{
-  color: purple;
-  background-color: #c7c7c7;
-  font-size: 28px;
-  text-align: center;
-  text-transform: lowercase;
+.main-article{
+  font-size: 40px;
+  border: 3px solid rgb(0, 255, 0);
+  color: red;
 }
-.heading-art{
-  color:yellow;
-  background-color:purple;
+.head-article{
+  border: inherit;
 }
-.format-text{
-  text-align: right;
-  color:blue;
+.content-article{
+  font-size: unset;
+  color: initial;
 }
-p{
-  font-size: 16px;
-  line-height: 1.2em;
-  background-color: #eeeeee;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.link-article{
+  color: violet;
+  font-style: 20px;
 }
