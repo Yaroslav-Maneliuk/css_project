@@ -1,14 +1,35 @@
 .img{
-  display: block;
-  width: 200px;
+  /* display: block; */
+  width: 150px;
+  height: 150px;
   border: 5px solid red;
+  border-radius: 50%;
   padding: 15px;
   margin: 50px 20px;
+  object-fit: cover;
+  object-position: center;
 }
 .neg-margin{
   margin-top: 100px;
   border: 5px solid blue;
 }
 body{
-  margin: 0;
+  font-size: 0;
+  text-align: center;
 }
+.div{
+  display: inline-block;
+  width: 100px;
+  border: 5px solid green;
+  padding: 10px 30px;
+  margin: 0px;
+  font-size: initial;
+}
+/* .span{
+  display: block;
+  width: 200px;
+  box-sizing: border-box;
+  border: 5px solid red;
+  padding: 100px 130px;
+  margin: 20px auto;
+} */
