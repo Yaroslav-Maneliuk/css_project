@@ -1,24 +1,13 @@
-html, body{
-  overflow-x: hidden;
+.btn{
+  min-width: 60px;
+  width: 100%;
+  max-width: 150px;
+  padding: 10px;
+  font-size: 2em;
+  text-transform: capitalize;
 }
-.wrapper{
-  min-width: 200px;
-  /* width: 50vw; */
-  min-height: 400px;
-  min-height: 200px;
-  height: 50vw;
-  max-height: 700px;
-  border: 2px solid red;
-  padding: 20px;
-
-}
-.inner{
-  box-sizing: border-box;
-  width: 50%;
-  height: 50%;
-  border: 2px solid green;
-  /* margin-top: 20px; */
-  /* overflow: auto; */
-  overflow-y: scroll;
-
+.text-overflow{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
