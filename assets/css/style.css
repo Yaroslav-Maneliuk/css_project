@@ -1,20 +1,6 @@
-body{
-  margin: 0;
-}
-.container{
-  /* display: inline-block; */
-  box-sizing:border-box;
-  width: 25vw;
-  height: 100px;
-  border: 3px dotted red;
-}
-.hidden2{
-  display: none;
-}
-.hidden3{
-  background-color: lime;
-  opacity: 1;
-}
-.hidden4{
-  visibility: hidden;
+ul{
+  padding: 24px;
+  list-style-type: square;
+  list-style-position: outside;
+  list-style-image: url(./../icons/account-multiple\ \(1\).png);
 }
