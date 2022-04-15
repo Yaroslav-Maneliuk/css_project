@@ -43,6 +43,29 @@ main{
   padding-top: 6em;
 }
 
+.inner{
+  height: 50px;
+  width: 10%;
+  background-color: red;
+  transition-property: width;
+  transition-duration: 2s;
+}
+.wrapper:hover .inner{
+  width: 100%;
+}
+.linear{
+  transition-timing-function: linear;
+}
+.ease-in{
+  transition-timing-function: ease-in;
+}
+.ease-out{
+  transition-timing-function: ease-out;
+}
+.ease-in-out{
+  transition-timing-function: ease-in-out;
+}
+
 
 
 
